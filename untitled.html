@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript">
+function show(){
+	document.getElementById("test").style.display = "block";
+}
+function hide(){
+	document.getElementById("test").style.display = "none";
+}
+</script>
+</head>
+
+<body>
+<input type="radio" name="group1" value="" onClick="hide()" />不显示
+<input type="radio" name="group1" value="" onClick="show()" />显示
+<input type="radio" name="group1" value="" onClick="show()" />显示
+<div id="test" style="display:none"><input type="text" /></div>
+</body>
+</html>

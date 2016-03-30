@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>找回密码</title>
+<style>
+body {
+	font-family: "Microsoft Yahei", "微软雅黑", Arial;
+	font-size: 16px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+a {color:#000; text-decoration:none;outline:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#F60;text-decoration:none;}
+a:active {color:#000;}
+img{border:0;}
+.mminput {
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid #CCC;
+	min-width: 220px;
+}
+.mminput1 {
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid #CCC;
+}
+/* btn */
+.wbtn {
+	font-family: "Microsoft Yahei", "微软雅黑", Arial;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	height: 30px;
+	min-width: 150px;
+	padding: 0px 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 2px;
+	border: 1px solid #3079ED;
+	color: #F3F7FC;
+	background-color: #4D90FE;
+	background: -webkit-linear-gradient(top, #4D90FE, #4787ED);
+	background: -moz-linear-gradient(top, #4D90FE, #4787ED);
+	background: linear-gradient(top, #4D90FE, #4787ED);
+}
+.wbtn:hover {
+	border-color: #2F5BB7;
+	color: #fff;
+	background-color: #4D90FE;
+	background: -webkit-linear-gradient(top, #4D90FE, #357AE8);
+	background: -moz-linear-gradient(top, #4D90FE, #357AE8);
+	background: linear-gradient(top, #4D90FE, #357AE8);
+}
+.wbtn:active {
+	box-shadow:#2176D3 0 1px 2px 0 inset;
+	border-color: #3079ED;
+}
+.wbtn:focus {
+	border-color:#4d90fe;
+	outline:none;
+}
+</style>
+</head>
+
+<body>
+<div style="padding-top:30px;">
+  <table border="0" align="center" cellpadding="7" cellspacing="0">
+    <tr>
+      <td><a href="#"><img src="images/zmm001.png" width="52" height="52" /></a></td>
+      <td style="font-size:18px"><a href="#">通过注册手机短信找回</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><a href="#"><img src="images/zmm002.png" width="52" height="52" /></a></td>
+      <td style="font-size:18px"><a href="#">通过密保问题找回</a></td>
+    </tr>
+  </table>
+</div>
+
+<div style="padding-top:30px;">
+  <table border="0" align="center" cellpadding="5" cellspacing="0">
+    <tr>
+      <td>身份证号：</td>
+      <td><input type="text" name="name" class="mminput" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center" style="padding-top:20px;"><input type="submit" name="name" class="wbtn" value="下一步" /></td>
+    </tr>
+  </table>
+</div>
+
+<div style="padding-top:30px;">
+  <table border="0" align="center" cellpadding="5" cellspacing="0">
+    <tr>
+      <td align="center" nowrap="nowrap">身份证：<font color="#FF6600"><strong>130732198703111490</strong></font></td>
+    </tr>
+    <tr>
+      <td align="center"><font style="font-size:14px;color:#039;">我们已向您尾号2363的手机发送了短信，请输入收到的验证码，完成下一步操作！</font></td>
+    </tr>
+    <tr>
+      <td align="center"><table border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td><font color="#FF0000">*</font>&nbsp;验证码：</td>
+          <td><input type="text" name="name2" class="mminput1" size="10" /></td>
+          <td><font style="font-size:14px;color:#666;">放提示</font></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td align="center" style="padding-top:20px;"><input type="submit" name="name" class="wbtn" value="下一步" /></td>
+    </tr>
+  </table>
+</div>
+
+<div style="padding-top:30px;">
+  <table border="0" align="center" cellpadding="5" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center"><font style="font-size:14px; color:#666;">需重新设置系统登录密码，请填写密保问题及答案。</font></td>
+    </tr>
+    <tr>
+      <td><font color="#FF0000">*</font>&nbsp;身份证号：</td>
+      <td><input type="text" name="name" class="mminput" /></td>
+    </tr>
+    <tr>
+      <td><font color="#FF0000">*</font>&nbsp;密保问题：</td>
+      <td><select name="select" style="padding:5px;border: 1px solid #CCC;">
+        <option value="test">test</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td><font color="#FF0000">*</font>&nbsp;密保答案：</td>
+      <td><input type="text" name="name" class="mminput" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><input type="submit" name="name" class="wbtn" value="确认" /></td>
+    </tr>
+  </table>
+</div>
+
+<div style="padding-top:30px;">
+  <table border="0" align="center" cellpadding="5" cellspacing="0">
+    <tr>
+      <td colspan="2" align="center"><font style="font-size:14px; color:#666;">设置新密码</font></td>
+    </tr>
+    <tr>
+      <td><font color="#FF0000">*</font>&nbsp;新密码：</td>
+      <td><input type="text" name="name" class="mminput" /></td>
+    </tr>
+    <tr>
+      <td><font color="#FF0000">*</font>&nbsp;确认密码：</td>
+      <td><input type="text" name="name" class="mminput" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><input type="submit" name="name" class="wbtn" value="确认" /></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
